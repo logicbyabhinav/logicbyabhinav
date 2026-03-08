@@ -1,26 +1,16 @@
 <div align="center">
-
 <img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=0:0d1117,100:161b22&height=2" />
-
 <br/>
-
-# ABHINAV KISHORE
-
+ABHINAV KISHORE
 <img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=0:1f6feb,100:388bfd&height=3" />
-
 <br/>
-
-![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=18&pause=1000&color=58A6FF&center=true&vCenter=true&width=600&lines=Computer+Science+%26+Engineering+Student;Hardware+%2B+Software+Developer;Systems+Builder+%7C+Embedded+Engineer)
-
+Show Image
 <br/>
-
-![Student](https://img.shields.io/badge/STUDENT-Diploma_CS%26E-0d1117?style=flat-square&labelColor=1f6feb&color=161b22)
-![Location](https://img.shields.io/badge/LOCATION-India-0d1117?style=flat-square&labelColor=1f6feb&color=161b22)
-![Timezone](https://img.shields.io/badge/TIMEZONE-UTC+05:30-0d1117?style=flat-square&labelColor=1f6feb&color=161b22)
-![Status](https://img.shields.io/badge/STATUS-Building-0d1117?style=flat-square&labelColor=238636&color=161b22)
-
+Show Image
+Show Image
+Show Image
+Show Image
 <br/>
-
 </div>
 
 ---
