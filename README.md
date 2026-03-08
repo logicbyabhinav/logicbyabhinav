@@ -1,84 +1,86 @@
 <div align="center">
 
-<!-- Animated Header Banner -->
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0c29,50:302b63,100:24243e&height=200&section=header&text=Abhinav%20Kishore&fontSize=60&fontColor=ffffff&fontAlignY=38&desc=Engineer%20%7C%20Builder%20%7C%20Tinkerer&descAlignY=58&descSize=20&animation=fadeIn" />
+<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=0:0d1117,100:161b22&height=2" />
 
-</div>
+<br/>
 
-<div align="center">
+# ABHINAV KISHORE
 
-![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=5094F5&center=true&vCenter=true&width=600&lines=Hey+there!+I'm+Abhinav+Kishore+%F0%9F%91%8B;CS+%26+Engineering+Student+%F0%9F%8E%93;Hardware+%2B+Software+Builder+%E2%9A%A1;Robot+Maker+%F0%9F%A4%96+%7C+Code+Crafter+%F0%9F%92%BB)
+<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=0:1f6feb,100:388bfd&height=3" />
+
+<br/>
+
+![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=18&pause=1000&color=58A6FF&center=true&vCenter=true&width=600&lines=Computer+Science+%26+Engineering+Student;Hardware+%2B+Software+Developer;Systems+Builder+%7C+Embedded+Engineer)
+
+<br/>
+
+![Student](https://img.shields.io/badge/STUDENT-Diploma_CS%26E-0d1117?style=flat-square&labelColor=1f6feb&color=161b22)
+![Location](https://img.shields.io/badge/LOCATION-India-0d1117?style=flat-square&labelColor=1f6feb&color=161b22)
+![Timezone](https://img.shields.io/badge/TIMEZONE-UTC+05:30-0d1117?style=flat-square&labelColor=1f6feb&color=161b22)
+![Status](https://img.shields.io/badge/STATUS-Building-0d1117?style=flat-square&labelColor=238636&color=161b22)
+
+<br/>
 
 </div>
 
 ---
 
-## 👋 About Me
+## ABOUT
 
-<img align="right" alt="Coding" width="300" src="https://cdn.dribbble.com/users/1162077/screenshots/3848914/programmer.gif" />
-
-Hey! I'm **Abhinav Kishore**, a passionate builder from India who loves working where **hardware meets software**.
-
-<br/>
-
-![Student](https://img.shields.io/badge/🎓_Student-Diploma_CS%26E-4B8BBE?style=flat-square)
-![Location](https://img.shields.io/badge/📍_Location-India-FF9933?style=flat-square)
-![Focus](https://img.shields.io/badge/⚡_Focus-Hardware_%2B_Software-00C853?style=flat-square)
-![Status](https://img.shields.io/badge/🚀_Status-Building_Projects-FF6B35?style=flat-square)
-
-<br/>
+I'm **Abhinav Kishore**, a Computer Science & Engineering student based in India. I work at the intersection of software and hardware — writing code that runs on systems, controls hardware, and solves real problems.
 
 ```yaml
 name        : Abhinav Kishore
 username    : logicbyabhinav
 pronouns    : he / him
-location    : India 🇮🇳
+location    : India
 education   : Diploma in Computer Science & Engineering
-interests   : [ Robotics, Systems, Embedded Dev, Web ]
-currently   : Building experimental tech projects 🔧
+focus       : Hardware + Software Development
+interests   : [ Robotics, Embedded Systems, Systems Programming, Web ]
 contact     : kishore.abhinav09@gmail.com
 ```
 
-<br/>
-
-### 🌱 I'm currently...
-- 🤖 Building a **Self Obstacle-Avoiding Robot** with sensors & embedded C
-- 🏫 Developing a **University Management System**
-- 📚 Sharpening my skills in **C++, Python & JavaScript**
-- 🔍 Exploring how **hardware and code** can work together
+**Currently working on:**
+- Self Obstacle-Avoiding Robot — autonomous navigation using ultrasonic sensors and embedded C
+- University Management System — structured data management for academic operations
+- Deepening proficiency in C++, Python, and JavaScript
 
 ---
 
-## 🚀 Featured Projects
+## PROJECTS
 
 <table>
 <tr>
-<td width="50%">
+<td width="50%" valign="top">
 
-### 🏫 University Management System
-A full-featured system to manage university operations — students, courses, faculty, and records.
+### University Management System
 
-- 📋 Manages student enrollment & records
-- 👨‍🏫 Faculty and course administration
-- 🗃️ Structured data handling
-- 💻 Built with core programming logic
+A structured software system for managing university operations — student records, course enrollment, faculty administration, and data handling.
 
-**Stack:** `C` / `Java` / `Python`
+**Highlights**
+- Student enrollment and academic record management
+- Faculty and course administration modules
+- Data integrity and structured storage logic
+- Built from the ground up using core programming
+
+**Stack** &nbsp; `C` &nbsp; `Java` &nbsp; `Python`
 
 </td>
-<td width="50%">
+<td width="50%" valign="top">
 
-### 🤖 Self Obstacle-Avoiding Robot
-An autonomous robot that detects and navigates around obstacles in real time — no human input needed.
+### Self Obstacle-Avoiding Robot
 
-- 📡 Ultrasonic / IR sensor integration
-- ⚙️ Real-time decision-making logic
-- 🔄 Servo & motor control
-- 🛠️ Hardware + firmware fusion
+An autonomous robot capable of detecting and navigating around obstacles in real time without any manual input. A hardware-software integration project.
 
-**Stack:** `C` · Embedded Systems · Hardware
+**Highlights**
+- Ultrasonic and IR sensor integration
+- Real-time decision-making and path correction
+- Servo and DC motor control
+- Full embedded C firmware on microcontroller
 
-> 📁 *Files uploading soon...*
+**Stack** &nbsp; `Embedded C` &nbsp; `Arduino` &nbsp; `Hardware`
+
+> *Source files uploading soon*
 
 </td>
 </tr>
@@ -86,14 +88,13 @@ An autonomous robot that detects and navigates around obstacles in real time —
 
 ---
 
-## 🛠️ Tech Stack
+## TECH STACK
 
 <table>
 <tr>
 <td valign="top" width="33%">
 
-### 💻 Languages
-<div align="center">
+**Languages**
 
 ![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white)
 ![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
@@ -102,78 +103,64 @@ An autonomous robot that detects and navigates around obstacles in real time —
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 
-</div>
 </td>
 <td valign="top" width="33%">
 
-### 🔧 Tools & IDEs
-<div align="center">
+**Tools & IDEs**
 
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 ![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
 ![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white)
 ![Arduino IDE](https://img.shields.io/badge/Arduino_IDE-00979D?style=for-the-badge&logo=arduino&logoColor=white)
 
-</div>
 </td>
 <td valign="top" width="33%">
 
-### 🤖 Hardware & Embedded
-<div align="center">
+**Hardware & Embedded**
 
 ![Arduino](https://img.shields.io/badge/Arduino-00979D?style=for-the-badge&logo=arduino&logoColor=white)
 ![Embedded C](https://img.shields.io/badge/Embedded_C-A8B9CC?style=for-the-badge&logo=c&logoColor=black)
-![Sensors](https://img.shields.io/badge/Sensors-FF6B35?style=for-the-badge&logo=probot&logoColor=white)
-![Servo Motors](https://img.shields.io/badge/Servo_Motors-E91E63?style=for-the-badge&logo=servo&logoColor=white)
+![Sensors](https://img.shields.io/badge/Ultrasonic_Sensors-FF6B35?style=for-the-badge&logoColor=white)
+![Motors](https://img.shields.io/badge/Servo_Motors-E91E63?style=for-the-badge&logoColor=white)
 
-</div>
 </td>
 </tr>
 </table>
 
 ---
 
-## 📊 GitHub Stats
+## GITHUB STATS
 
 <div align="center">
 
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=logicbyabhinav&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true&bg_color=0d1117"/>
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=logicbyabhinav&layout=compact&langs_count=8&theme=tokyonight&hide_border=true&bg_color=0d1117"/>
-
-</div>
-
-<div align="center">
-
-<!-- GitHub's own contribution snake — updates daily via GitHub Actions -->
-<img src="https://github-readme-stats.vercel.app/api?username=logicbyabhinav&show=reviews,discussions_started,discussions_answered,prs_merged,prs_merged_percentage&theme=tokyonight&hide_border=true&bg_color=0d1117" />
-
-</div>
-
-> ⚠️ **Note on the streak widget:** The old `streak-stats.demolab.com` service is no longer reliably maintained and shows stale 2024 dates. The stats above pull **directly from GitHub's API** and are always up to date.
-
----
-
-## 🏆 GitHub Trophies
-
-<div align="center">
-
-[![trophy](https://github-profile-trophy.vercel.app/?username=logicbyabhinav&theme=tokyonight&no-frame=true&no-bg=true&margin-w=6&row=1)](https://github.com/ryo-ma/github-profile-trophy)
+<img height="180em" src="https://github-readme-stats.vercel.app/api?username=logicbyabhinav&show_icons=true&theme=github_dark&include_all_commits=true&count_private=true&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=1f6feb&text_color=c9d1d9"/>
+<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=logicbyabhinav&layout=compact&langs_count=8&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9"/>
 
 </div>
 
 ---
 
-## 📈 Contribution Activity
+## CONTRIBUTION ACTIVITY
 
 <div align="center">
 
-[![Abhinav's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=logicbyabhinav&bg_color=0d1117&color=5094f5&line=5094f5&point=ffffff&area=true&hide_border=true)](https://github.com/ashutosh00710/github-readme-activity-graph)
+[![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=logicbyabhinav&bg_color=0d1117&color=58a6ff&line=1f6feb&point=58a6ff&area=true&hide_border=true)](https://github.com/ashutosh00710/github-readme-activity-graph)
 
 </div>
 
 ---
 
-## 🌐 Connect With Me
+## TROPHIES
+
+<div align="center">
+
+[![trophy](https://github-profile-trophy.vercel.app/?username=logicbyabhinav&theme=github_dark&no-frame=true&no-bg=true&margin-w=6&row=1)](https://github.com/ryo-ma/github-profile-trophy)
+
+</div>
+
+---
+
+## CONTACT
 
 <div align="center">
 
@@ -182,20 +169,14 @@ An autonomous robot that detects and navigates around obstacles in real time —
 
 <br/>
 
-![Open to Collabs](https://img.shields.io/badge/🤝_Open_to-Collaborations-00C853?style=flat-square)
-![Open to Projects](https://img.shields.io/badge/💡_Open_to-Project_Ideas-5094F5?style=flat-square)
-![Time Zone](https://img.shields.io/badge/🕐_Timezone-IST_(UTC+5:30)-FF9933?style=flat-square)
+![Views](https://komarev.com/ghpvc/?username=logicbyabhinav&color=1f6feb&style=flat-square&label=PROFILE+VIEWS)
 
-</div>
+<br/>
 
----
+<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=0:1f6feb,100:388bfd&height=3" />
 
-<div align="center">
+<br/>
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:24243e,50:302b63,100:0f0c29&height=120&section=footer&animation=fadeIn"/>
-
-*"The best way to predict the future is to build it."*
-
-![Visitor Count](https://komarev.com/ghpvc/?username=logicbyabhinav&color=5094f5&style=flat-square&label=Profile+Views)
+<sub>Abhinav Kishore &nbsp;·&nbsp; logicbyabhinav &nbsp;·&nbsp; India</sub>
 
 </div>
