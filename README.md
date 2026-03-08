@@ -1,16 +1,22 @@
 <div align="center">
-<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=0:0d1117,100:161b22&height=2" />
+
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:1f6feb,100:0d1117&height=200&section=header&text=ABHINAV%20KISHORE&fontSize=52&fontColor=ffffff&fontAlignY=38&desc=Engineer%20%7C%20Builder%20%7C%20Systems%20Developer&descAlignY=58&descSize=18&animation=fadeIn&fontAlign=50" />
+
 <br/>
-ABHINAV KISHORE
-<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=0:1f6feb,100:388bfd&height=3" />
+
+![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=18&pause=1000&color=58A6FF&center=true&vCenter=true&width=600&lines=Computer+Science+%26+Engineering+Student;Hardware+%2B+Software+Developer;Systems+Builder+%7C+Embedded+Engineer;Turning+Ideas+into+Working+Technology)
+
 <br/>
-Show Image
+
+![Student](https://img.shields.io/badge/STUDENT-Diploma_CS%26E-0d1117?style=flat-square&labelColor=1f6feb&color=161b22)
+![Location](https://img.shields.io/badge/LOCATION-India-0d1117?style=flat-square&labelColor=1f6feb&color=161b22)
+![Timezone](https://img.shields.io/badge/TIMEZONE-UTC+05:30-0d1117?style=flat-square&labelColor=1f6feb&color=161b22)
+![Status](https://img.shields.io/badge/STATUS-Building-0d1117?style=flat-square&labelColor=238636&color=161b22)
+
 <br/>
-Show Image
-Show Image
-Show Image
-Show Image
-<br/>
+
+<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=0:1f6feb,100:388bfd&height=2" />
+
 </div>
 
 ---
