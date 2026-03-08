@@ -144,9 +144,12 @@ An autonomous robot that detects and navigates around obstacles in real time —
 
 <div align="center">
 
-[![GitHub Streak](https://streak-stats.demolab.com?user=logicbyabhinav&theme=tokyonight&hide_border=true&background=0d1117)](https://git.io/streak-stats)
+<!-- GitHub's own contribution snake — updates daily via GitHub Actions -->
+<img src="https://github-readme-stats.vercel.app/api?username=logicbyabhinav&show=reviews,discussions_started,discussions_answered,prs_merged,prs_merged_percentage&theme=tokyonight&hide_border=true&bg_color=0d1117" />
 
 </div>
+
+> ⚠️ **Note on the streak widget:** The old `streak-stats.demolab.com` service is no longer reliably maintained and shows stale 2024 dates. The stats above pull **directly from GitHub's API** and are always up to date.
 
 ---
 
