@@ -50,7 +50,6 @@ contact     : kishore.abhinav09@gmail.com
 <td width="50%" valign="top">
 
 ### University Management System
-
 A structured software system for managing university operations — student records, course enrollment, faculty administration, and data handling.
 
 **Highlights**
@@ -65,7 +64,6 @@ A structured software system for managing university operations — student reco
 <td width="50%" valign="top">
 
 ### Self Obstacle-Avoiding Robot
-
 An autonomous robot capable of detecting and navigating around obstacles in real time without any manual input. A hardware-software integration project.
 
 **Highlights**
@@ -77,6 +75,28 @@ An autonomous robot capable of detecting and navigating around obstacles in real
 **Stack** &nbsp; `Embedded C` &nbsp; `Arduino` &nbsp; `Hardware`
 
 > *Source files uploading soon*
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### AI Client Intake Automation
+A full end-to-end client intake system for a software agency — multi-step form, AI-powered project analysis, automated emails, and live data logging. Fully deployed and publicly accessible.
+
+**Highlights**
+- Multi-step form with validation and localStorage state management
+- n8n webhook automation pipeline hosted on Render
+- Groq AI generates a structured project summary per submission
+- Gmail sends branded confirmation emails automatically
+- Google Sheets logs every submission with AI analysis
+
+**Stack** &nbsp; `HTML` &nbsp; `JavaScript` &nbsp; `CSS` &nbsp; `n8n` &nbsp; `Groq AI` &nbsp; `Gmail API` &nbsp; `Google Sheets`
+
+**Live** &nbsp; [webservices-software.netlify.app](https://webservices-software.netlify.app)
+
+</td>
+<td width="50%" valign="top">
 
 </td>
 </tr>
