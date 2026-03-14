@@ -59,7 +59,7 @@ A structured software system for managing university operations — student reco
 - Data integrity and structured storage logic
 - Built from the ground up using core programming
 
-**Stack** &nbsp; `C` &nbsp; `Java` &nbsp; `Python`
+**Stack** &nbsp; `HTML` &nbsp; `JavaScript` &nbsp; `CSS`
 
 </td>
 <td width="50%" valign="top">
