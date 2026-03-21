@@ -46,8 +46,6 @@ A working intake system for a software agency. A visitor fills a multi-step form
 
 **Stack** &nbsp; `HTML` `CSS` `JavaScript` `n8n` `Groq AI` `Gmail API` `Google Sheets`
 
-**Live →** [webservices-software.netlify.app](https://webservices-software.netlify.app)
-
 </td>
 <td width="50%" valign="top">
 
