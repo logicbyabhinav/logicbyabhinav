@@ -1,6 +1,7 @@
 <div align="center">
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:1f6feb,100:0d1117&height=180&section=header&text=ABHINAV%20KISHORE&fontSize=48&fontColor=ffffff&fontAlignY=38&desc=Diploma+CS%26E+Student+%7C+Web+Dev+%26+Robotics&descAlignY=58&descSize=16&animation=fadeIn&fontAlign=50" />
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:1f6feb,100:0d1117&height=200&section=header&text=ABHINAV%20KISHORE&fontSize=52&fontColor=ffffff&fontAlignY=38" />
+
 
 <br/>
 
