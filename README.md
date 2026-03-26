@@ -37,16 +37,30 @@ contact   : kishore.abhinav09@gmail.com
 
 ## Projects
 
+---
+
+## Projects
+
 <table>
 <tr>
 <td width="50%" valign="top">
 
-### AI Client Intake Automation
-A working intake system for a software agency. A visitor fills a multi-step form, which triggers an n8n webhook pipeline — Groq AI generates a project summary from the input, a confirmation email goes out automatically via Gmail, and the submission is logged to Google Sheets.
+### SLIET Market
+A peer-to-peer campus marketplace with real-time bidding. Features include atomic offer acceptance (Batch Writes), dispute resolution (Relisting logic), and optimized image handling via Base64 to stay within free-tier serverless constraints.
 
-**Stack** &nbsp; `HTML` `CSS` `JavaScript` `n8n` `Groq AI` `Gmail API` `Google Sheets`
+**Stack** &nbsp; `JavaScript` `Firebase` `Firestore` `HTML` `CSS`
 
 </td>
+<td width="50%" valign="top">
+
+### AI Client Intake Automation
+A working intake system for a software agency. A visitor fills a multi-step form, which triggers an n8n webhook pipeline — Groq AI generates a project summary, sends automated emails, and logs data to Google Sheets.
+
+**Stack** &nbsp; `n8n` `Groq AI` `JavaScript` `Gmail API` `Google Sheets`
+
+</td>
+</tr>
+<tr>
 <td width="50%" valign="top">
 
 ### University Management System
@@ -55,8 +69,10 @@ A web frontend for managing student records, course enrollment, and faculty data
 **Stack** &nbsp; `HTML` `CSS` `JavaScript` `Google Sheets`
 
 </td>
-</tr>
+<td width="50%" valign="top">
 
+</td>
+</tr>
 </table>
 
 ---
