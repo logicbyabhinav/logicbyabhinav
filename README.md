@@ -45,12 +45,22 @@ contact   : kishore.abhinav09@gmail.com
 <tr>
 <td width="50%" valign="top">
 
+### VoltDrive
+A portable, self-hosted web file manager that runs directly from a pendrive or external SSD. Plug in, launch, and get a full browser-based UI for uploading, browsing, previewing, and organizing files — with real-time sync across devices via Server-Sent Events.
+
+**Stack** &nbsp; `Node.js` `Express` `JavaScript` `HTML` `CSS`
+
+</td>
+<td width="50%" valign="top">
+
 ### SLIET Market
 A peer-to-peer campus marketplace with real-time bidding. Features include atomic offer acceptance (Batch Writes), dispute resolution (Relisting logic), and optimized image handling via Base64 to stay within free-tier serverless constraints.
 
 **Stack** &nbsp; `JavaScript` `Firebase` `Firestore` `HTML` `CSS`
 
 </td>
+</tr>
+<tr>
 <td width="50%" valign="top">
 
 ### AI Client Intake Automation
@@ -59,17 +69,12 @@ A working intake system for a software agency. A visitor fills a multi-step form
 **Stack** &nbsp; `n8n` `Groq AI` `JavaScript` `Gmail API` `Google Sheets`
 
 </td>
-</tr>
-<tr>
 <td width="50%" valign="top">
 
 ### University Management System
 A web frontend for managing student records, course enrollment, and faculty data. Uses Google Sheets as a simple backend. Built it to practice handling structured data in a real-world-shaped problem.
 
 **Stack** &nbsp; `HTML` `CSS` `JavaScript` `Google Sheets`
-
-</td>
-<td width="50%" valign="top">
 
 </td>
 </tr>
