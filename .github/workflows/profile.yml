@@ -1,0 +1,56 @@
+name: Update profile graphics
+
+on:
+  schedule:
+    - cron: "17 */6 * * *"   # every 6 hours
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - scripts/build-stats.mjs
+      - .github/workflows/profile.yml
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-graphics
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      # Live numbers -> assets/generated/stats.svg
+      - name: Build stats card
+        run: node scripts/build-stats.mjs
+        env:
+          GH_USER: ${{ github.repository_owner }}
+          # Optional: add a PAT (read:user) as the secret GH_STATS_TOKEN to count private contributions.
+          GH_TOKEN: ${{ secrets.GH_STATS_TOKEN || secrets.GITHUB_TOKEN }}
+
+      # Contribution snake in the profile palette -> assets/generated/snake.svg
+      - name: Build contribution snake
+        uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            assets/generated/snake.svg?color_snake=#ffb347&color_dots=#101a24,#17474a,#1f7a78,#2bb3ae,#36d6c8
+
+      - name: Commit changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/generated
+          if git diff --cached --quiet; then
+            echo "Nothing to commit"
+          else
+            git commit -m "chore: refresh profile graphics"
+            git push
+          fi

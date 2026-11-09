@@ -1,0 +1,143 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 300" width="900" height="300" role="img" aria-labelledby="t d">
+  <title id="t">Abhinav Kishore, systems and backend engineering</title>
+  <desc id="d">Animated banner: a request packet travels from a client through a TCP socket into MiniCache and down to memory buckets, while the tagline types itself.</desc>
+  <defs>
+    <pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1" fill="#1b2a37"/>
+    </pattern>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#ffb347" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#ffb347" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="bar" x1="0" x2="1" y1="0" y2="0">
+      <stop offset="0" stop-color="#36d6c8"/>
+      <stop offset="1" stop-color="#ffb347"/>
+    </linearGradient>
+    <clipPath id="c0"><rect x="48" y="170" height="24" width="0">
+      <animate attributeName="width" dur="12s" repeatCount="indefinite" keyTimes="0;0.08;0.30;0.31;1" values="0;391;391;0;0"/></rect></clipPath>
+    <clipPath id="c1"><rect x="48" y="170" height="24" width="0">
+      <animate attributeName="width" dur="12s" repeatCount="indefinite" keyTimes="0;0.333;0.413;0.633;0.643;1" values="0;0;409;409;0;0"/></rect></clipPath>
+    <clipPath id="c2"><rect x="48" y="170" height="24" width="0">
+      <animate attributeName="width" dur="12s" repeatCount="indefinite" keyTimes="0;0.666;0.746;0.966;0.976;1" values="0;0;373;373;0;0"/></rect></clipPath>
+  </defs>
+
+  <style>
+    .sans { font-family: "Segoe UI", Inter, "Helvetica Neue", Arial, sans-serif; }
+    .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace; }
+  </style>
+
+  <!-- card -->
+  <rect x="0.5" y="0.5" width="899" height="299" rx="16" fill="#0a1118" stroke="#1d2b38"/>
+  <rect x="0.5" y="0.5" width="899" height="299" rx="16" fill="url(#dots)"/>
+  <ellipse cx="710" cy="150" rx="190" ry="130" fill="url(#glow)">
+    <animate attributeName="rx" values="170;210;170" dur="6s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.7;1;0.7" dur="6s" repeatCount="indefinite"/>
+  </ellipse>
+
+  <!-- left: identity -->
+  <text x="48" y="74" class="mono" font-size="14" fill="#36d6c8">@logicbyabhinav</text>
+  <text x="48" y="128" class="sans" font-size="44" font-weight="700" fill="#e6eef5" letter-spacing="-0.5">Abhinav Kishore</text>
+  <rect x="48" y="142" width="132" height="3" rx="1.5" fill="url(#bar)">
+    <animate attributeName="width" values="132;190;132" dur="5s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- typed tagline (three lines, one at a time) -->
+  <g class="mono" font-size="15" fill="#ffb347">
+    <text x="48" y="188" clip-path="url(#c0)">Low-latency systems and backend engineering</text>
+    <text x="48" y="188" clip-path="url(#c1)">Data stores and protocols, built from scratch</text>
+    <text x="48" y="188" clip-path="url(#c2)">First-principles software, no black boxes</text>
+  </g>
+  <!-- cursors follow each line's wipe -->
+  <g>
+    <animate attributeName="opacity" dur="12s" repeatCount="indefinite" keyTimes="0;0.31;0.32;1" values="1;1;0;0"/>
+    <rect y="173" width="8" height="18" fill="#ffb347" x="48">
+      <animate attributeName="x" dur="12s" repeatCount="indefinite" keyTimes="0;0.08;0.30;1" values="48;439;439;439"/>
+      <animate attributeName="opacity" values="1;0" keyTimes="0;0.5" dur="1s" repeatCount="indefinite" calcMode="discrete"/>
+    </rect>
+  </g>
+  <g opacity="0">
+    <animate attributeName="opacity" dur="12s" repeatCount="indefinite" keyTimes="0;0.333;0.334;0.643;0.644;1" values="0;0;1;1;0;0"/>
+    <rect y="173" width="8" height="18" fill="#ffb347" x="48">
+      <animate attributeName="x" dur="12s" repeatCount="indefinite" keyTimes="0;0.333;0.413;1" values="48;48;457;457"/>
+      <animate attributeName="opacity" values="1;0" keyTimes="0;0.5" dur="1s" repeatCount="indefinite" calcMode="discrete"/>
+    </rect>
+  </g>
+  <g opacity="0">
+    <animate attributeName="opacity" dur="12s" repeatCount="indefinite" keyTimes="0;0.666;0.667;0.976;0.977;1" values="0;0;1;1;0;0"/>
+    <rect y="173" width="8" height="18" fill="#ffb347" x="48">
+      <animate attributeName="x" dur="12s" repeatCount="indefinite" keyTimes="0;0.666;0.746;1" values="48;48;421;421"/>
+      <animate attributeName="opacity" values="1;0" keyTimes="0;0.5" dur="1s" repeatCount="indefinite" calcMode="discrete"/>
+    </rect>
+  </g>
+
+  <!-- left: facts -->
+  <g class="sans" font-size="13.5" fill="#8396a6">
+    <text x="48" y="232">CS&amp;E diploma student at SLIET, India</text>
+    <text x="48" y="254">Java 21, C++, Node.js, Linux</text>
+  </g>
+
+  <!-- right: request path -->
+  <g class="mono">
+    <!-- links -->
+    <g stroke="#2a3d4d" stroke-width="1.5" stroke-dasharray="3 4">
+      <line x1="710" y1="80" x2="710" y2="100"/>
+      <line x1="710" y1="144" x2="710" y2="164"/>
+      <line x1="710" y1="208" x2="710" y2="228"/>
+    </g>
+
+    <!-- box 1: client -->
+    <rect x="590" y="36" width="240" height="44" rx="8" fill="#101a24" stroke="#24384a"/>
+    <rect x="590" y="36" width="240" height="44" rx="8" fill="#ffb347" opacity="0">
+      <animate attributeName="opacity" dur="4s" repeatCount="indefinite" keyTimes="0;0.06;0.94;1" values="0.18;0;0;0.18"/>
+    </rect>
+    <text x="606" y="55" font-size="13" font-weight="700" fill="#36d6c8">client</text>
+    <text x="606" y="71" font-size="11.5" fill="#7f91a1">redis-cli or any RESP client</text>
+
+    <!-- box 2: tcp -->
+    <rect x="590" y="100" width="240" height="44" rx="8" fill="#101a24" stroke="#24384a"/>
+    <rect x="590" y="100" width="240" height="44" rx="8" fill="#ffb347" opacity="0">
+      <animate attributeName="opacity" dur="4s" repeatCount="indefinite" keyTimes="0;0.1067;0.1667;0.2267;0.7733;0.8333;0.8933;1" values="0;0;0.18;0;0;0.18;0;0"/>
+    </rect>
+    <text x="606" y="119" font-size="13" font-weight="700" fill="#36d6c8">tcp socket</text>
+    <text x="606" y="135" font-size="11.5" fill="#7f91a1">RESP frames as raw bytes</text>
+
+    <!-- box 3: minicache -->
+    <rect x="590" y="164" width="240" height="44" rx="8" fill="#101a24" stroke="#ffb347" stroke-opacity="0.7"/>
+    <rect x="590" y="164" width="240" height="44" rx="8" fill="#ffb347" opacity="0">
+      <animate attributeName="opacity" dur="4s" repeatCount="indefinite" keyTimes="0;0.2733;0.3333;0.3933;0.6067;0.6667;0.7267;1" values="0;0;0.22;0;0;0.22;0;0"/>
+    </rect>
+    <text x="606" y="183" font-size="13" font-weight="700" fill="#ffb347">minicache</text>
+    <text x="606" y="199" font-size="11.5" fill="#7f91a1">worker pool, LRU, TTL</text>
+
+    <!-- box 4: memory -->
+    <rect x="590" y="228" width="240" height="44" rx="8" fill="#101a24" stroke="#24384a"/>
+    <rect x="590" y="228" width="240" height="44" rx="8" fill="#ffb347" opacity="0">
+      <animate attributeName="opacity" dur="4s" repeatCount="indefinite" keyTimes="0;0.44;0.5;0.56;1" values="0;0;0.18;0;0"/>
+    </rect>
+    <text x="606" y="247" font-size="13" font-weight="700" fill="#36d6c8">memory</text>
+    <text x="606" y="263" font-size="11.5" fill="#7f91a1">chained hash buckets</text>
+    <!-- bucket cells -->
+    <g fill="#1d3a42" stroke="#2f6f73" stroke-width="1">
+      <rect x="752" y="240" width="9" height="20" rx="2"/><rect x="765" y="240" width="9" height="20" rx="2"/>
+      <rect x="778" y="240" width="9" height="20" rx="2"/><rect x="791" y="240" width="9" height="20" rx="2"/>
+      <rect x="804" y="240" width="9" height="20" rx="2"/>
+    </g>
+    <rect x="778" y="240" width="9" height="20" rx="2" fill="#ffb347" opacity="0">
+      <animate attributeName="opacity" dur="4s" repeatCount="indefinite" keyTimes="0;0.44;0.5;0.62;1" values="0;0;0.9;0;0"/>
+    </rect>
+
+    <!-- the packet -->
+    <g>
+      <animateMotion dur="4s" repeatCount="indefinite" path="M710,58 V250 V58" calcMode="linear"/>
+      <circle r="11" fill="#ffb347" opacity="0.2">
+        <animate attributeName="r" values="8;13;8" dur="1s" repeatCount="indefinite"/>
+      </circle>
+      <circle r="4.5" fill="#ffb347"/>
+    </g>
+  </g>
+
+  <!-- footer pulse line -->
+  <line x1="24" y1="287" x2="876" y2="287" stroke="#36d6c8" stroke-opacity="0.55" stroke-width="1.5" stroke-dasharray="3 13" stroke-linecap="round">
+    <animate attributeName="stroke-dashoffset" from="0" to="-32" dur="2s" repeatCount="indefinite"/>
+  </line>
+</svg>
