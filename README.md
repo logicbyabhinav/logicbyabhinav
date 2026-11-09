@@ -1,10 +1,16 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/logicbyabhinav/logicbyabhinav/main/assets/banner.svg" alt="Abhinav Kishore, systems and backend engineering" width="100%">
+  <img src="assets/banner.svg" alt="Abhinav Kishore, systems and backend engineering" width="100%">
 </p>
 
-I'm a CS&E diploma student at SLIET, India. I like working one layer below the framework: data structures, wire protocols, and sockets, exploring how programs interact with raw bytes and physical memory. Most of my projects are built from first principles without heavy frameworks to understand how the components work under the hood.
+I'm a CS&E diploma student at SLIET, India. I focus on backend systems: data structures, wire protocols, and sockets, working directly with raw bytes and memory without heavy framework abstractions.
 
-Right now, I am building **MiniCache**, an in-memory key-value store in Java 21 that speaks the Redis RESP protocol.
+<br>
+
+### Currently
+
+- **Building**: [MiniCache](https://github.com/logicbyabhinav/MiniCache), a standalone in-memory key-value store in Java 21 speaking the Redis RESP protocol.
+- **Learning**: Wire protocol byte deserialization, race-condition mitigation in multi-threaded socket servers, and sentinel doubly-linked list mechanics.
+- **Next up**: Pipelined command execution and benchmarking against standard Redis clients with `redis-benchmark`.
 
 <br>
 
@@ -15,14 +21,15 @@ Right now, I am building **MiniCache**, an in-memory key-value store in Java 21 
 <td valign="top" width="50%">
 
 ### [MiniCache](https://github.com/logicbyabhinav/MiniCache)
-`In-Memory Key-Value Store`
+`Status: Active Development` · `In-Memory Key-Value Store`
 
-> A standalone caching daemon built in Java 21 that speaks the Redis RESP wire protocol over raw TCP sockets.
+> A standalone caching daemon built in Java 21 that speaks the Redis RESP wire protocol over raw TCP sockets with zero third-party dependencies.
 
 - **Storage**: Custom separate-chaining hash table with polynomial rolling hash
 - **Eviction**: $O(1)$ LRU queue using a Doubly Linked List with Sentinels
 - **Expiry**: Absolute 64-bit epoch TTL with lazy pruning on read
-- **Engine**: Thread-safe synchronized core served by a worker pool
+- **Protocol**: Wire-compatible with Redis clients (`PING`, `SET`, `GET`, `DEL`, `EXISTS`)
+- **What I learned**: Cache-aside semantics, thread synchronization without high-level collections, and byte-level socket deserialization.
 
 `Java 21` · `TCP Sockets` · `RESP Protocol` · `Data Structures`
 
@@ -30,13 +37,14 @@ Right now, I am building **MiniCache**, an in-memory key-value store in Java 21 
 <td valign="top" width="50%">
 
 ### [VoltDrive](https://github.com/logicbyabhinav/VoltDrive)
-`Zero-Install Portable File Server`
+`Status: Stable` · `Zero-Install Portable File Server`
 
-> A self-hosted file management daemon designed to run directly from USB drives or external disks without local setup.
+> A self-hosted file management daemon designed to run directly from USB drives or external disks without local installation.
 
-- **Filesystem**: Local storage navigation, streaming previews, and file uploads
+- **Filesystem**: Local directory navigation, streaming file previews, and chunked uploads
 - **Sync**: Real-time multi-device synchronization via Server-Sent Events (SSE)
-- **Zero-Footprint**: Plug in, launch daemon, and access via any local browser
+- **Zero-Footprint**: Launches portably on the host and serves across the local network
+- **What I learned**: Managing Node.js stream backpressure, buffer piping, and persistent HTTP connections.
 
 `Node.js` · `Express` · `Server-Sent Events` · `Filesystem I/O`
 
@@ -46,13 +54,14 @@ Right now, I am building **MiniCache**, an in-memory key-value store in Java 21 
 <td valign="top" width="50%">
 
 ### [OmniDrive](https://github.com/logicbyabhinav/OmniDrive)
-`Client-Side Encrypted Storage Aggregator`
+`Status: Stable` · `Client-Side Encrypted Storage Aggregator`
 
 > Combines the free storage quotas of multiple Google Drive accounts into one virtual unified drive.
 
-- **Crypto**: Client-side AES-256-GCM chunking in browser before upload
+- **Crypto**: Client-side AES-256-GCM chunking in the browser before upload
 - **Assembly**: Multi-part streaming assembly across independent OAuth accounts
-- **Sovereignty**: Zero server storage liability; 100% user-owned encryption keys
+- **Privacy**: No intermediate server holds files; encryption keys remain on the client
+- **What I learned**: Asynchronous Web Crypto API primitives, browser `ArrayBuffer` memory boundaries, and multi-part upload coordination.
 
 `JavaScript` · `PWA` · `Web Crypto API` · `Google Drive API`
 
@@ -60,13 +69,14 @@ Right now, I am building **MiniCache**, an in-memory key-value store in Java 21 
 <td valign="top" width="50%">
 
 ### [SLIET Market](https://github.com/logicbyabhinav/SLIETmarket)
-`Campus Peer-to-Peer Marketplace`
+`Status: Stable` · `Campus Peer-to-Peer Marketplace`
 
-> High-reliability campus marketplace for student negotiations, bidding, and inventory exchange.
+> Campus marketplace for student bidding, item negotiations, and inventory exchange.
 
-- **Transactions**: Atomic offer acceptance via Firestore Batch Writes
-- **State Machine**: Real-time offer bidding with automated dispute relisting
-- **Optimization**: Base64 payload optimization within serverless limits
+- **Transactions**: Atomic offer acceptance via Firestore Batch Writes to prevent partial commits
+- **State Machine**: Real-time offer bidding with automated relisting on disputes
+- **Optimization**: Base64 payload optimization to stay within serverless document limits
+- **What I learned**: NoSQL schema boundaries, distributed transaction limits, and real-time document synchronization.
 
 `JavaScript` · `Firebase Firestore` · `Serverless` · `NoSQL`
 
@@ -78,34 +88,32 @@ Right now, I am building **MiniCache**, an in-memory key-value store in Java 21 
 
 ## Activity
 
-Generated by a GitHub Action every six hours from my public GitHub data.
+Generated by a GitHub Action every six hours from public GitHub contributions.
 
 <p align="center">
   <img src="assets/generated/stats.svg" alt="GitHub activity: contributions, streaks, stars, weekly activity and language mix" width="100%">
-</p>
-
-<p align="center">
-  <img src="assets/generated/snake.svg" alt="Contribution graph with a snake eating the commits" width="100%">
 </p>
 
 <br>
 
 ## Languages and Tools
 
-<p align="left">
-  <img src="https://raw.githubusercontent.com/logicbyabhinav/logicbyabhinav/main/assets/icons/java.svg" alt="Java" width="30" height="30" />&nbsp;&nbsp;
-  <img src="https://raw.githubusercontent.com/logicbyabhinav/logicbyabhinav/main/assets/icons/c.svg" alt="C" width="30" height="30" />&nbsp;&nbsp;
-  <img src="https://raw.githubusercontent.com/logicbyabhinav/logicbyabhinav/main/assets/icons/cpp.svg" alt="C++" width="30" height="30" />&nbsp;&nbsp;
-  <img src="https://raw.githubusercontent.com/logicbyabhinav/logicbyabhinav/main/assets/icons/python.svg" alt="Python" width="30" height="30" />&nbsp;&nbsp;
-  <img src="https://raw.githubusercontent.com/logicbyabhinav/logicbyabhinav/main/assets/icons/javascript.svg" alt="JavaScript" width="30" height="30" />&nbsp;&nbsp;
-  <img src="https://raw.githubusercontent.com/logicbyabhinav/logicbyabhinav/main/assets/icons/nodejs.svg" alt="Node.js" width="30" height="30" />&nbsp;&nbsp;
-  <img src="https://raw.githubusercontent.com/logicbyabhinav/logicbyabhinav/main/assets/icons/linux.svg" alt="Linux" width="30" height="30" />&nbsp;&nbsp;
-  <img src="https://raw.githubusercontent.com/logicbyabhinav/logicbyabhinav/main/assets/icons/bash.svg" alt="Bash / Terminal" width="30" height="30" />&nbsp;&nbsp;
-  <img src="https://raw.githubusercontent.com/logicbyabhinav/logicbyabhinav/main/assets/icons/git.svg" alt="Git" width="30" height="30" />&nbsp;&nbsp;
-  <img src="https://raw.githubusercontent.com/logicbyabhinav/logicbyabhinav/main/assets/icons/mysql.svg" alt="MySQL" width="30" height="30" />&nbsp;&nbsp;
-  <img src="https://raw.githubusercontent.com/logicbyabhinav/logicbyabhinav/main/assets/icons/redis.svg" alt="Redis" width="30" height="30" />&nbsp;&nbsp;
-  <img src="https://raw.githubusercontent.com/logicbyabhinav/logicbyabhinav/main/assets/icons/vscode.svg" alt="VS Code" width="30" height="30" />
-</p>
+<table>
+  <tr>
+    <td align="center" width="80"><img src="assets/icons/java.svg" width="30" height="30" /><br><sub><b>Java 21</b></sub></td>
+    <td align="center" width="80"><img src="assets/icons/c.svg" width="30" height="30" /><br><sub><b>C</b></sub></td>
+    <td align="center" width="80"><img src="assets/icons/cpp.svg" width="30" height="30" /><br><sub><b>C++</b></sub></td>
+    <td align="center" width="80"><img src="assets/icons/python.svg" width="30" height="30" /><br><sub><b>Python</b></sub></td>
+    <td align="center" width="80"><img src="assets/icons/javascript.svg" width="30" height="30" /><br><sub><b>JavaScript</b></sub></td>
+    <td align="center" width="80"><img src="assets/icons/nodejs.svg" width="30" height="30" /><br><sub><b>Node.js</b></sub></td>
+    <td align="center" width="80"><img src="assets/icons/express.svg" width="30" height="30" /><br><sub><b>Express</b></sub></td>
+    <td align="center" width="80"><img src="assets/icons/firebase.svg" width="30" height="30" /><br><sub><b>Firebase</b></sub></td>
+    <td align="center" width="80"><img src="assets/icons/linux.svg" width="30" height="30" /><br><sub><b>Linux</b></sub></td>
+    <td align="center" width="80"><img src="assets/icons/bash.svg" width="30" height="30" /><br><sub><b>Bash</b></sub></td>
+    <td align="center" width="80"><img src="assets/icons/git.svg" width="30" height="30" /><br><sub><b>Git</b></sub></td>
+    <td align="center" width="80"><img src="assets/icons/vscode.svg" width="30" height="30" /><br><sub><b>VS Code</b></sub></td>
+  </tr>
+</table>
 
 <br>
 
@@ -113,10 +121,10 @@ Generated by a GitHub Action every six hours from my public GitHub data.
 
 <p align="left">
   <a href="mailto:kishore.abhinav09@gmail.com" target="_blank" rel="noreferrer">
-    <img src="https://raw.githubusercontent.com/logicbyabhinav/logicbyabhinav/main/assets/icons/gmail.svg" alt="Gmail" width="28" height="28" />
+    <img src="assets/icons/gmail.svg" alt="Gmail" width="28" height="28" />
   </a>
   &nbsp;&nbsp;&nbsp;
   <a href="https://github.com/logicbyabhinav" target="_blank" rel="noreferrer">
-    <img src="https://raw.githubusercontent.com/logicbyabhinav/logicbyabhinav/main/assets/icons/github.svg" alt="GitHub" width="28" height="28" />
+    <img src="assets/icons/github.svg" alt="GitHub" width="28" height="28" />
   </a>
 </p>

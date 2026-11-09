@@ -51,6 +51,6 @@ jobs:
           if git diff --cached --quiet; then
             echo "Nothing to commit"
           else
-            git commit -m "chore: refresh profile graphics"
+            git commit -m "chore: refresh profile graphics [skip ci]"
             git push
           fi

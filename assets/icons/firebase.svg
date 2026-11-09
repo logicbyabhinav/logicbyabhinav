@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="28" height="28" fill="none">
+    <!-- Left flame facet -->
+    <path d="M4.5 17.5L8.5 3L11.5 8.5L4.5 17.5Z" fill="#8B949E"/>
+    <!-- Right flame facet -->
+    <path d="M19.5 17.5L14 3.5L11.5 8.5L19.5 17.5Z" fill="#C9D1D9"/>
+    <!-- Central flame facet -->
+    <path d="M11.5 8.5L8 15L12 21L19.5 17.5L11.5 8.5Z" fill="#F0F6FC"/>
+  </svg>

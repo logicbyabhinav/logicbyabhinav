@@ -108,6 +108,20 @@ const icons = {
     <polygon points="12,13 21,17.5 12,22 3,17.5" fill="${c.muted}" stroke="${c.dark}" stroke-width="1"/>
   </svg>`,
 
+  'express.svg': `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="28" height="28" fill="none">
+    <rect x="2" y="3" width="20" height="18" rx="3" stroke="${c.muted}" stroke-width="1.5" fill="${c.bg}"/>
+    <text x="6" y="16" font-family="ui-monospace, monospace" font-size="11" font-weight="700" fill="${c.bright}">ex</text>
+  </svg>`,
+
+  'firebase.svg': `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="28" height="28" fill="none">
+    <!-- Left flame facet -->
+    <path d="M4.5 17.5L8.5 3L11.5 8.5L4.5 17.5Z" fill="${c.muted}"/>
+    <!-- Right flame facet -->
+    <path d="M19.5 17.5L14 3.5L11.5 8.5L19.5 17.5Z" fill="${c.primary}"/>
+    <!-- Central flame facet -->
+    <path d="M11.5 8.5L8 15L12 21L19.5 17.5L11.5 8.5Z" fill="${c.bright}"/>
+  </svg>`,
+
   'vscode.svg': `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="28" height="28" fill="none">
     <!-- VS Code origami ribbon folds -->
     <path d="M17.5 2.5L7.5 10.2L3.5 7L2 7.8V16.2L3.5 17L7.5 13.8L17.5 21.5L22 19.5V4.5L17.5 2.5Z" stroke="${c.muted}" stroke-width="1.4" stroke-linejoin="round"/>
