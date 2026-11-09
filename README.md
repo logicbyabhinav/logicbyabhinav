@@ -2,36 +2,77 @@
   <img src="assets/banner.svg" alt="Abhinav Kishore, systems and backend engineering" width="100%">
 </p>
 
-I'm a CS&E diploma student at SLIET, India. I like working one layer below the framework: data structures, wire protocols and sockets, and finding out what a program does with the bytes it receives. Most of what's below is built without a framework on purpose, to learn how the pieces work.
+I'm a CS&E diploma student at SLIET, India. I like working one layer below the framework: data structures, wire protocols, and sockets, exploring how programs interact with raw bytes and physical memory. Most of my projects are built from first principles without heavy frameworks to understand how the components work under the hood.
 
-Right now I'm building **MiniCache**, an in-memory key-value store in Java that speaks the Redis RESP protocol.
-
-<br>
-
-## A session against MiniCache
-
-<p align="center">
-  <img src="assets/terminal.svg" alt="Animated terminal session: PING, SET and GET against MiniCache with the raw RESP bytes shown" width="100%">
-</p>
-
-The `>>` and `<<` lines are the raw bytes of each request and reply, which is what the server actually parses and writes.
+Right now, I am building **MiniCache**, an in-memory key-value store in Java 21 that speaks the Redis RESP protocol.
 
 <br>
 
 ## Projects
 
-| Project | What it does | Built with |
-| :-- | :-- | :-- |
-| [**MiniCache**](https://github.com/logicbyabhinav/MiniCache) | In-memory cache daemon that speaks RESP over raw TCP sockets. Separate-chaining hash table with polynomial hashing, O(1) LRU eviction on a doubly linked list with sentinel nodes, absolute-deadline TTLs with lazy expiry on read, and a synchronized core served by a worker pool. | Java 21 |
-| [**VoltDrive**](https://github.com/logicbyabhinav/VoltDrive) | Self-hosted file manager that runs straight from a USB drive or external disk with no installation. Browse, stream and upload from any device on the network, with live updates across devices over Server-Sent Events. | Node.js, Express |
-| [**OmniDrive**](https://github.com/logicbyabhinav/OmniDrive) | Combines the free quotas of several Google Drive accounts into one virtual drive. Files are split and encrypted in the browser with AES-256-GCM before upload, so there is no backend holding user data. | JavaScript, PWA, Web Crypto API |
-| [**SLIET Market**](https://github.com/logicbyabhinav/SLIETmarket) | Campus marketplace for student-to-student trading, with offers, negotiation and relisting after disputes. Multi-document updates use Firestore batch writes so a trade never half-completes. | JavaScript, Firebase |
+<table width="100%">
+<tr>
+<td valign="top" width="50%">
 
-### How MiniCache evicts
+### [MiniCache](https://github.com/logicbyabhinav/MiniCache)
+`In-Memory Key-Value Store`
 
-<p align="center">
-  <img src="assets/lru.svg" alt="Animation: a read moves a node to the head of the list, then an insert into a full cache evicts the tail" width="100%">
-</p>
+> A standalone caching daemon built in Java 21 that speaks the Redis RESP wire protocol over raw TCP sockets.
+
+- **Storage**: Custom separate-chaining hash table with polynomial rolling hash
+- **Eviction**: $O(1)$ LRU queue using a Doubly Linked List with Sentinels
+- **Expiry**: Absolute 64-bit epoch TTL with lazy pruning on read
+- **Engine**: Thread-safe synchronized core served by a worker pool
+
+`Java 21` · `TCP Sockets` · `RESP Protocol` · `Data Structures`
+
+</td>
+<td valign="top" width="50%">
+
+### [VoltDrive](https://github.com/logicbyabhinav/VoltDrive)
+`Zero-Install Portable File Server`
+
+> A self-hosted file management daemon designed to run directly from USB drives or external disks without local setup.
+
+- **Filesystem**: Local storage navigation, streaming previews, and file uploads
+- **Sync**: Real-time multi-device synchronization via Server-Sent Events (SSE)
+- **Zero-Footprint**: Plug in, launch daemon, and access via any local browser
+
+`Node.js` · `Express` · `Server-Sent Events` · `Filesystem I/O`
+
+</td>
+</tr>
+<tr>
+<td valign="top" width="50%">
+
+### [OmniDrive](https://github.com/logicbyabhinav/OmniDrive)
+`Client-Side Encrypted Storage Aggregator`
+
+> Combines the free storage quotas of multiple Google Drive accounts into one virtual unified drive.
+
+- **Crypto**: Client-side AES-256-GCM chunking in browser before upload
+- **Assembly**: Multi-part streaming assembly across independent OAuth accounts
+- **Sovereignty**: Zero server storage liability; 100% user-owned encryption keys
+
+`JavaScript` · `PWA` · `Web Crypto API` · `Google Drive API`
+
+</td>
+<td valign="top" width="50%">
+
+### [SLIET Market](https://github.com/logicbyabhinav/SLIETmarket)
+`Campus Peer-to-Peer Marketplace`
+
+> High-reliability campus marketplace for student negotiations, bidding, and inventory exchange.
+
+- **Transactions**: Atomic offer acceptance via Firestore Batch Writes
+- **State Machine**: Real-time offer bidding with automated dispute relisting
+- **Optimization**: Base64 payload optimization within serverless limits
+
+`JavaScript` · `Firebase Firestore` · `Serverless` · `NoSQL`
+
+</td>
+</tr>
+</table>
 
 <br>
 
@@ -46,8 +87,6 @@ Generated by a GitHub Action every six hours from my public GitHub data.
 <p align="center">
   <img src="assets/generated/snake.svg" alt="Contribution graph with a snake eating the commits" width="100%">
 </p>
-
-<br>
 
 <br>
 
@@ -70,4 +109,3 @@ Generated by a GitHub Action every six hours from my public GitHub data.
     <img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white" height="24" />
   </a>
 </p>
-
