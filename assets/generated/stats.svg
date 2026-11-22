@@ -32,81 +32,81 @@
     <animate attributeName="height" from="0" to="2.0" dur="0.7s" begin="0.00s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.2 0.8 0.2 1"/>
     <animate attributeName="y" from="148" to="146.0" dur="0.7s" begin="0.00s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.2 0.8 0.2 1"/>
   </rect>
-<rect x="436.5" y="148" width="10.5" height="0" rx="2" fill="#36d6c8" fill-opacity="0.18">
-    <animate attributeName="height" from="0" to="2.0" dur="0.7s" begin="0.03s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.2 0.8 0.2 1"/>
-    <animate attributeName="y" from="148" to="146.0" dur="0.7s" begin="0.03s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.2 0.8 0.2 1"/>
+<rect x="436.5" y="148" width="10.5" height="0" rx="2" fill="#36d6c8" fill-opacity="0.6142857142857143">
+    <animate attributeName="height" from="0" to="13.7" dur="0.7s" begin="0.03s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.2 0.8 0.2 1"/>
+    <animate attributeName="y" from="148" to="134.3" dur="0.7s" begin="0.03s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.2 0.8 0.2 1"/>
   </rect>
-<rect x="450.9" y="148" width="10.5" height="0" rx="2" fill="#36d6c8" fill-opacity="0.6142857142857143">
-    <animate attributeName="height" from="0" to="13.7" dur="0.7s" begin="0.06s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.2 0.8 0.2 1"/>
-    <animate attributeName="y" from="148" to="134.3" dur="0.7s" begin="0.06s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.2 0.8 0.2 1"/>
+<rect x="450.9" y="148" width="10.5" height="0" rx="2" fill="#36d6c8" fill-opacity="0.18">
+    <animate attributeName="height" from="0" to="2.0" dur="0.7s" begin="0.06s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.2 0.8 0.2 1"/>
+    <animate attributeName="y" from="148" to="146.0" dur="0.7s" begin="0.06s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.2 0.8 0.2 1"/>
   </rect>
 <rect x="465.4" y="148" width="10.5" height="0" rx="2" fill="#36d6c8" fill-opacity="0.18">
     <animate attributeName="height" from="0" to="2.0" dur="0.7s" begin="0.09s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.2 0.8 0.2 1"/>
     <animate attributeName="y" from="148" to="146.0" dur="0.7s" begin="0.09s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.2 0.8 0.2 1"/>
   </rect>
-<rect x="479.8" y="148" width="10.5" height="0" rx="2" fill="#36d6c8" fill-opacity="0.18">
-    <animate attributeName="height" from="0" to="2.0" dur="0.7s" begin="0.12s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.2 0.8 0.2 1"/>
-    <animate attributeName="y" from="148" to="146.0" dur="0.7s" begin="0.12s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.2 0.8 0.2 1"/>
+<rect x="479.8" y="148" width="10.5" height="0" rx="2" fill="#36d6c8" fill-opacity="0.6464285714285715">
+    <animate attributeName="height" from="0" to="20.6" dur="0.7s" begin="0.12s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.2 0.8 0.2 1"/>
+    <animate attributeName="y" from="148" to="127.4" dur="0.7s" begin="0.12s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.2 0.8 0.2 1"/>
   </rect>
-<rect x="494.3" y="148" width="10.5" height="0" rx="2" fill="#36d6c8" fill-opacity="0.6464285714285715">
-    <animate attributeName="height" from="0" to="20.6" dur="0.7s" begin="0.15s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.2 0.8 0.2 1"/>
-    <animate attributeName="y" from="148" to="127.4" dur="0.7s" begin="0.15s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.2 0.8 0.2 1"/>
+<rect x="494.3" y="148" width="10.5" height="0" rx="2" fill="#36d6c8" fill-opacity="0.18">
+    <animate attributeName="height" from="0" to="2.0" dur="0.7s" begin="0.15s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.2 0.8 0.2 1"/>
+    <animate attributeName="y" from="148" to="146.0" dur="0.7s" begin="0.15s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.2 0.8 0.2 1"/>
   </rect>
 <rect x="508.8" y="148" width="10.5" height="0" rx="2" fill="#36d6c8" fill-opacity="0.18">
     <animate attributeName="height" from="0" to="2.0" dur="0.7s" begin="0.18s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.2 0.8 0.2 1"/>
     <animate attributeName="y" from="148" to="146.0" dur="0.7s" begin="0.18s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.2 0.8 0.2 1"/>
   </rect>
-<rect x="523.2" y="148" width="10.5" height="0" rx="2" fill="#36d6c8" fill-opacity="0.18">
-    <animate attributeName="height" from="0" to="2.0" dur="0.7s" begin="0.21s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.2 0.8 0.2 1"/>
-    <animate attributeName="y" from="148" to="146.0" dur="0.7s" begin="0.21s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.2 0.8 0.2 1"/>
+<rect x="523.2" y="148" width="10.5" height="0" rx="2" fill="#36d6c8" fill-opacity="0.5821428571428572">
+    <animate attributeName="height" from="0" to="6.9" dur="0.7s" begin="0.21s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.2 0.8 0.2 1"/>
+    <animate attributeName="y" from="148" to="141.1" dur="0.7s" begin="0.21s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.2 0.8 0.2 1"/>
   </rect>
-<rect x="537.7" y="148" width="10.5" height="0" rx="2" fill="#36d6c8" fill-opacity="0.5821428571428572">
-    <animate attributeName="height" from="0" to="6.9" dur="0.7s" begin="0.24s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.2 0.8 0.2 1"/>
-    <animate attributeName="y" from="148" to="141.1" dur="0.7s" begin="0.24s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.2 0.8 0.2 1"/>
+<rect x="537.7" y="148" width="10.5" height="0" rx="2" fill="#36d6c8" fill-opacity="0.18">
+    <animate attributeName="height" from="0" to="2.0" dur="0.7s" begin="0.24s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.2 0.8 0.2 1"/>
+    <animate attributeName="y" from="148" to="146.0" dur="0.7s" begin="0.24s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.2 0.8 0.2 1"/>
   </rect>
 <rect x="552.2" y="148" width="10.5" height="0" rx="2" fill="#36d6c8" fill-opacity="0.18">
     <animate attributeName="height" from="0" to="2.0" dur="0.7s" begin="0.27s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.2 0.8 0.2 1"/>
     <animate attributeName="y" from="148" to="146.0" dur="0.7s" begin="0.27s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.2 0.8 0.2 1"/>
   </rect>
-<rect x="566.6" y="148" width="10.5" height="0" rx="2" fill="#36d6c8" fill-opacity="0.18">
-    <animate attributeName="height" from="0" to="2.0" dur="0.7s" begin="0.30s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.2 0.8 0.2 1"/>
-    <animate attributeName="y" from="148" to="146.0" dur="0.7s" begin="0.30s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.2 0.8 0.2 1"/>
+<rect x="566.6" y="148" width="10.5" height="0" rx="2" fill="#36d6c8" fill-opacity="1">
+    <animate attributeName="height" from="0" to="96.0" dur="0.7s" begin="0.30s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.2 0.8 0.2 1"/>
+    <animate attributeName="y" from="148" to="52.0" dur="0.7s" begin="0.30s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.2 0.8 0.2 1"/>
   </rect>
-<rect x="581.1" y="148" width="10.5" height="0" rx="2" fill="#36d6c8" fill-opacity="1">
-    <animate attributeName="height" from="0" to="96.0" dur="0.7s" begin="0.33s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.2 0.8 0.2 1"/>
-    <animate attributeName="y" from="148" to="52.0" dur="0.7s" begin="0.33s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.2 0.8 0.2 1"/>
+<rect x="581.1" y="148" width="10.5" height="0" rx="2" fill="#36d6c8" fill-opacity="0.6142857142857143">
+    <animate attributeName="height" from="0" to="13.7" dur="0.7s" begin="0.33s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.2 0.8 0.2 1"/>
+    <animate attributeName="y" from="148" to="134.3" dur="0.7s" begin="0.33s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.2 0.8 0.2 1"/>
   </rect>
-<rect x="595.5" y="148" width="10.5" height="0" rx="2" fill="#36d6c8" fill-opacity="0.6142857142857143">
-    <animate attributeName="height" from="0" to="13.7" dur="0.7s" begin="0.36s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.2 0.8 0.2 1"/>
-    <animate attributeName="y" from="148" to="134.3" dur="0.7s" begin="0.36s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.2 0.8 0.2 1"/>
+<rect x="595.5" y="148" width="10.5" height="0" rx="2" fill="#36d6c8" fill-opacity="0.6785714285714286">
+    <animate attributeName="height" from="0" to="27.4" dur="0.7s" begin="0.36s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.2 0.8 0.2 1"/>
+    <animate attributeName="y" from="148" to="120.6" dur="0.7s" begin="0.36s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.2 0.8 0.2 1"/>
   </rect>
-<rect x="610.0" y="148" width="10.5" height="0" rx="2" fill="#36d6c8" fill-opacity="0.6785714285714286">
-    <animate attributeName="height" from="0" to="27.4" dur="0.7s" begin="0.39s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.2 0.8 0.2 1"/>
-    <animate attributeName="y" from="148" to="120.6" dur="0.7s" begin="0.39s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.2 0.8 0.2 1"/>
+<rect x="610.0" y="148" width="10.5" height="0" rx="2" fill="#36d6c8" fill-opacity="0.18">
+    <animate attributeName="height" from="0" to="2.0" dur="0.7s" begin="0.39s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.2 0.8 0.2 1"/>
+    <animate attributeName="y" from="148" to="146.0" dur="0.7s" begin="0.39s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.2 0.8 0.2 1"/>
   </rect>
 <rect x="624.5" y="148" width="10.5" height="0" rx="2" fill="#36d6c8" fill-opacity="0.18">
     <animate attributeName="height" from="0" to="2.0" dur="0.7s" begin="0.42s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.2 0.8 0.2 1"/>
     <animate attributeName="y" from="148" to="146.0" dur="0.7s" begin="0.42s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.2 0.8 0.2 1"/>
   </rect>
-<rect x="638.9" y="148" width="10.5" height="0" rx="2" fill="#36d6c8" fill-opacity="0.18">
-    <animate attributeName="height" from="0" to="2.0" dur="0.7s" begin="0.45s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.2 0.8 0.2 1"/>
-    <animate attributeName="y" from="148" to="146.0" dur="0.7s" begin="0.45s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.2 0.8 0.2 1"/>
+<rect x="638.9" y="148" width="10.5" height="0" rx="2" fill="#36d6c8" fill-opacity="0.6142857142857143">
+    <animate attributeName="height" from="0" to="13.7" dur="0.7s" begin="0.45s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.2 0.8 0.2 1"/>
+    <animate attributeName="y" from="148" to="134.3" dur="0.7s" begin="0.45s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.2 0.8 0.2 1"/>
   </rect>
-<rect x="653.4" y="148" width="10.5" height="0" rx="2" fill="#36d6c8" fill-opacity="0.6142857142857143">
-    <animate attributeName="height" from="0" to="13.7" dur="0.7s" begin="0.48s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.2 0.8 0.2 1"/>
-    <animate attributeName="y" from="148" to="134.3" dur="0.7s" begin="0.48s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.2 0.8 0.2 1"/>
+<rect x="653.4" y="148" width="10.5" height="0" rx="2" fill="#36d6c8" fill-opacity="0.18">
+    <animate attributeName="height" from="0" to="2.0" dur="0.7s" begin="0.48s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.2 0.8 0.2 1"/>
+    <animate attributeName="y" from="148" to="146.0" dur="0.7s" begin="0.48s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.2 0.8 0.2 1"/>
   </rect>
 <rect x="667.8" y="148" width="10.5" height="0" rx="2" fill="#36d6c8" fill-opacity="0.18">
     <animate attributeName="height" from="0" to="2.0" dur="0.7s" begin="0.51s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.2 0.8 0.2 1"/>
     <animate attributeName="y" from="148" to="146.0" dur="0.7s" begin="0.51s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.2 0.8 0.2 1"/>
   </rect>
-<rect x="682.3" y="148" width="10.5" height="0" rx="2" fill="#36d6c8" fill-opacity="0.18">
-    <animate attributeName="height" from="0" to="2.0" dur="0.7s" begin="0.54s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.2 0.8 0.2 1"/>
-    <animate attributeName="y" from="148" to="146.0" dur="0.7s" begin="0.54s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.2 0.8 0.2 1"/>
+<rect x="682.3" y="148" width="10.5" height="0" rx="2" fill="#36d6c8" fill-opacity="0.7107142857142857">
+    <animate attributeName="height" from="0" to="34.3" dur="0.7s" begin="0.54s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.2 0.8 0.2 1"/>
+    <animate attributeName="y" from="148" to="113.7" dur="0.7s" begin="0.54s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.2 0.8 0.2 1"/>
   </rect>
-<rect x="696.8" y="148" width="10.5" height="0" rx="2" fill="#36d6c8" fill-opacity="0.7107142857142857">
-    <animate attributeName="height" from="0" to="34.3" dur="0.7s" begin="0.57s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.2 0.8 0.2 1"/>
-    <animate attributeName="y" from="148" to="113.7" dur="0.7s" begin="0.57s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.2 0.8 0.2 1"/>
+<rect x="696.8" y="148" width="10.5" height="0" rx="2" fill="#36d6c8" fill-opacity="0.18">
+    <animate attributeName="height" from="0" to="2.0" dur="0.7s" begin="0.57s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.2 0.8 0.2 1"/>
+    <animate attributeName="y" from="148" to="146.0" dur="0.7s" begin="0.57s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.2 0.8 0.2 1"/>
   </rect>
 <rect x="711.2" y="148" width="10.5" height="0" rx="2" fill="#36d6c8" fill-opacity="0.18">
     <animate attributeName="height" from="0" to="2.0" dur="0.7s" begin="0.60s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.2 0.8 0.2 1"/>
@@ -120,13 +120,13 @@
     <animate attributeName="height" from="0" to="2.0" dur="0.7s" begin="0.66s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.2 0.8 0.2 1"/>
     <animate attributeName="y" from="148" to="146.0" dur="0.7s" begin="0.66s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.2 0.8 0.2 1"/>
   </rect>
-<rect x="754.6" y="148" width="10.5" height="0" rx="2" fill="#36d6c8" fill-opacity="0.18">
-    <animate attributeName="height" from="0" to="2.0" dur="0.7s" begin="0.69s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.2 0.8 0.2 1"/>
-    <animate attributeName="y" from="148" to="146.0" dur="0.7s" begin="0.69s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.2 0.8 0.2 1"/>
+<rect x="754.6" y="148" width="10.5" height="0" rx="2" fill="#36d6c8" fill-opacity="0.6464285714285715">
+    <animate attributeName="height" from="0" to="20.6" dur="0.7s" begin="0.69s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.2 0.8 0.2 1"/>
+    <animate attributeName="y" from="148" to="127.4" dur="0.7s" begin="0.69s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.2 0.8 0.2 1"/>
   </rect>
-<rect x="769.1" y="148" width="10.5" height="0" rx="2" fill="#36d6c8" fill-opacity="0.6464285714285715">
-    <animate attributeName="height" from="0" to="20.6" dur="0.7s" begin="0.72s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.2 0.8 0.2 1"/>
-    <animate attributeName="y" from="148" to="127.4" dur="0.7s" begin="0.72s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.2 0.8 0.2 1"/>
+<rect x="769.1" y="148" width="10.5" height="0" rx="2" fill="#36d6c8" fill-opacity="0.18">
+    <animate attributeName="height" from="0" to="2.0" dur="0.7s" begin="0.72s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.2 0.8 0.2 1"/>
+    <animate attributeName="y" from="148" to="146.0" dur="0.7s" begin="0.72s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.2 0.8 0.2 1"/>
   </rect>
 <rect x="783.5" y="148" width="10.5" height="0" rx="2" fill="#ffb347" fill-opacity="0.18">
     <animate attributeName="height" from="0" to="2.0" dur="0.7s" begin="0.75s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.2 0.8 0.2 1"/>
@@ -147,5 +147,5 @@
 <circle cx="653" cy="220" r="5" fill="#5d7a94"/>
     <text x="664" y="224" font-size="12.5" fill="#e6eef5" class="sans">Batchfile <tspan fill="#8396a6">0.4%</tspan></text>
 
-<text x="796" y="240" text-anchor="end" font-size="10.5" fill="#4d6073" class="sans">updated 2026-11-21</text>
+<text x="796" y="240" text-anchor="end" font-size="10.5" fill="#4d6073" class="sans">updated 2026-11-22</text>
 </svg>
